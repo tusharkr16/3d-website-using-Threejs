@@ -1,5 +1,5 @@
 import React, { Suspense }  from 'react'
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import Navbar from './Navbar';
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";

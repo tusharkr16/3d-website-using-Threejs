@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import logo from "../components/images/greeting.png";
 import search from "../components/images/search.png";
 
