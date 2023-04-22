@@ -80,7 +80,7 @@ const Works = () => {
         <Left>
           <List>
             {data.map((item) => (
-              <ListItem key={item} text={item} onClick={() => setWork(item)}>
+              <ListItem key={item} text={item} work ={work} onClick={() => setWork(item)}>
                 {item}
               </ListItem>
             ))}
