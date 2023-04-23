@@ -7,6 +7,10 @@ const Section = styled.div`
 display: flex;
 justify-content: center;
 
+@media only screen and (max-width: 768px) {
+  width: 100%;
+}
+
 `;
 
 const Container = styled.div`
@@ -15,6 +19,10 @@ padding: 10px 0;
 display: flex;
 justify-content: space-between;
 align-items: center;
+@media only screen and (max-width: 768px) {
+  width: 100%;
+  padding: 10px;
+}
 
 `;
 
@@ -38,6 +46,10 @@ padding:2px;
 const List = styled.div`
 display: flex;
 gap:30px;
+
+@media only screen and (max-width: 768px) {
+  display: none;
+}
 `;
 const Button = styled.button`
   width: 100px;
