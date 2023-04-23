@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/voxel-web-development-50ad959d6c6b479980
 Title: Voxel Web Development
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {

@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/unused-blue-vans-shoe-96baa4684df7415ba8
 Title: Unused Blue Vans Shoe
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
